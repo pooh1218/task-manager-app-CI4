@@ -1,0 +1,28 @@
+{
+    "name": "Materials Manager",
+    "description": "Webguard sample materials addon",
+    "type": "module",
+    "author": "Picassoo",
+	"homepage": "https://webguard.eduardofiorini.com",
+    "license": "MIT",
+    "version": "1.0.1.6",
+    "directory": "Materials",
+    "menu": [
+        {
+            "icon": "fas fa-tasks",
+            "title": "App.menu_materials",
+            "children": [
+                {
+                    "title": "App.menu_task_list",
+                    "url": "materials",
+                    "external": false
+                },
+                {
+                    "title": "App.menu_task_add",
+                    "url": "materials/add",
+                    "external": false
+                }
+            ]
+        }
+    ]
+}
